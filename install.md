@@ -44,13 +44,14 @@ CRI-O also attempts to package for the following operating systems:
 ```
 Fedora 31+
 openSUSE
-CentOS 8
+CentOS 9 Stream
 CentOS 8 Stream
+CentOS 8
 CentOS 7
 Debian Unstable
 Debian Testing
-Debian 10
 Debian 11
+Debian 10
 Rasbian 10
 xUbuntu 22.04
 xUbuntu 21.10
@@ -97,8 +98,9 @@ To install on the following operating systems, set the environment variable $OS 
 
 | Operating system | $OS               |
 | ---------------- | ----------------- |
-| Centos 8         | `CentOS_8`        |
+| Centos 9 Stream  | `CentOS_9_Stream` |
 | Centos 8 Stream  | `CentOS_8_Stream` |
+| Centos 8         | `CentOS_8`        |
 | Centos 7         | `CentOS_7`        |
 
 And then run the following as root:
